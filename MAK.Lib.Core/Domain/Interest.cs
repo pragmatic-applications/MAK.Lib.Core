@@ -1,0 +1,17 @@
+﻿namespace Domain
+{
+    // Todo: remove
+    public class Interest : CheckBoxState
+    {
+    }
+    //public class PagerData
+    //{
+    //    public int CurrentPage { get; set; }
+    //    public int TotalPages { get; set; }
+    //    public int PageSize { get; set; }
+    //    public int TotalCount { get; set; }
+
+    //    public bool HasPrevious => this.CurrentPage > 1;
+    //    public bool HasNext => this.CurrentPage < this.TotalPages;
+    //}
+}
