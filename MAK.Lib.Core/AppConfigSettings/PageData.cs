@@ -1,7 +1,7 @@
-﻿namespace AppConfigSettings
+﻿namespace AppConfigSettings;
+
+public class PageData
 {
-  public class PageData
-  {
     public string Title { get; set; }
     public string Home { get; set; }
     public string About { get; set; }
@@ -28,5 +28,4 @@
     public string GetInTouchSubHeading { get; set; }
     public string GetInTouchMessage { get; set; }
     public string YourMessageIsRequired { get; set; }
-  }
 }

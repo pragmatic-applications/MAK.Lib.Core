@@ -1,8 +1,7 @@
-﻿namespace AppConfigSettings
+﻿namespace AppConfigSettings;
+
+public class AuthFacebook
 {
-    public class AuthFacebook
-    {
-        public string AppId { get; set; }
-        public string AppSecret { get; set; }
-    }
+    public string AppId { get; set; }
+    public string AppSecret { get; set; }
 }

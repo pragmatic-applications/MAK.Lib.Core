@@ -1,4 +1,3 @@
-﻿namespace Domain
-{
-    public record DevInfo(string ToEmailAddress);
-}
+﻿namespace Domain;
+
+public record DevInfo(string ToEmailAddress);

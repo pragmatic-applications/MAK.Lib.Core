@@ -1,10 +1,8 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public class CheckBoxState
 {
-    // Todo: remove
-    public class CheckBoxState
-    {
-        public int Id { get; set; }
-        public bool IsSelected { get; set; }
-        public string Value { get; set; }
-    }
+    public int Id { get; set; }
+    public bool IsSelected { get; set; }
+    public string Value { get; set; }
 }

@@ -1,9 +1,6 @@
-﻿using System.Collections.Generic;
+﻿namespace Domain;
 
-namespace Domain
+public class FilesViewModel
 {
-    public class FilesViewModel
-    {
-        public List<FileDetails> Files { get; set; } = new List<FileDetails>();
-    }
+    public List<FileDetails> Files { get; set; } = new List<FileDetails>();
 }

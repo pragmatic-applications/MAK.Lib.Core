@@ -1,7 +1,5 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public class Improvement : CheckBoxState
 {
-    // Todo: remove
-    public class Improvement : CheckBoxState
-    {
-    }
 }

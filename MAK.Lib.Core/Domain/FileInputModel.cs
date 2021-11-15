@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿namespace Domain;
 
-namespace Domain
+public class FileInputModel
 {
-    public class FileInputModel
-    {
-        public IFormFile FileToUpload { get; set; }
-    }
+    public IFormFile FileToUpload { get; set; }
 }

@@ -3,9 +3,8 @@
 //=================================================================
 // Programmer: Maurice Antonio Kelly
 // Description: .NET Portfolio
-// ASP.NET Core 5.0
-// Date: 2021-09-17
-// Stop: 16:00
+// ASP.NET Core 6.0
+// Date: 2021-11-15
+// Stop: 20:00
+// NuGet: <Version>0.0.0.3</Version>
 //=================================================================
-
-// TODO: ...

@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Helpers;
 
-namespace Helpers
+public class DbSeedData
 {
-    public class DbSeedData
-    {
-        public const int Count = 10;
+    public const int Count = 10;
 
-        public static readonly string[] NamesFemale = new[]
-        {
+    public static readonly string[] NamesFemale = new[]
+    {
               "Ava",
               "Anna",
               "Amelia",
@@ -33,8 +30,8 @@ namespace Helpers
               "Violet"
         };
 
-        public static readonly string[] NamesMale = new[]
-        {
+    public static readonly string[] NamesMale = new[]
+    {
               "Daniel",
               "Charlie",
               "Harry",
@@ -58,8 +55,8 @@ namespace Helpers
               "Joshua",
               "Paul"
         };
-        public static readonly string[] NamesLastName = new[]
-        {
+    public static readonly string[] NamesLastName = new[]
+    {
               "Doe",
               "Smith",
               "Thomas",
@@ -93,8 +90,8 @@ namespace Helpers
               "Pink"
         };
 
-        public static readonly string[] Gems = new[]
-        {
+    public static readonly string[] Gems = new[]
+    {
               "Diamond",
               "Crystal",
               "Morion",
@@ -124,8 +121,8 @@ namespace Helpers
               "Violet",
               "Lilac"
         };
-        public static readonly string[] Colors = new[]
-        {
+    public static readonly string[] Colors = new[]
+    {
               "Blue",
               "Aqua",
               "Red",
@@ -144,8 +141,8 @@ namespace Helpers
               "Pink",
               "Lavender"
         };
-        public static readonly string[] Things = new[]
-        {
+    public static readonly string[] Things = new[]
+    {
               "beard",
               "finger",
               "hand",
@@ -162,21 +159,21 @@ namespace Helpers
               "ship"
         };
 
-        public static readonly string[] Discipline = new[]
-        {
+    public static readonly string[] Discipline = new[]
+    {
               "Science",
               "Engineering",
               "Arts"
         };
-        public static readonly string[] Level = new[]
-        {
+    public static readonly string[] Level = new[]
+    {
               "100",
               "200",
               "300"
         };
 
-        public static readonly string[] ItemCategories = new[]
-        {
+    public static readonly string[] ItemCategories = new[]
+    {
               "Art",
               "Film",
               "Music",
@@ -187,14 +184,14 @@ namespace Helpers
               "History"
         };
 
-        public static readonly string[] Gender = new[]
-        {
+    public static readonly string[] Gender = new[]
+    {
               "Male",
               "Female"
         };
 
-        public static readonly string[] AcademicInstitutes = new[]
-        {
+    public static readonly string[] AcademicInstitutes = new[]
+    {
               "MIT",
               "Yale",
               "Harvard",
@@ -219,8 +216,8 @@ namespace Helpers
               "Purdue"
         };
 
-        public static readonly string[] EnrollmentDates = new[]
-        {
+    public static readonly string[] EnrollmentDates = new[]
+    {
               "2016-09-01",
               "2018-09-01",
               "2019-09-01",
@@ -233,21 +230,20 @@ namespace Helpers
               "2020-09-01"
         };
 
-        public static readonly Random Randomize = new Random();
+    public static readonly Random Randomize = new Random();
 
-        public static string GetRandomElement(string[] list)
-        {
-            var i = Randomize.Next(list.Length - 1);
+    public static string GetRandomElement(string[] list)
+    {
+        var i = Randomize.Next(list.Length - 1);
 
-            return list[i];
-        }
-
-        public static string GetElement(int index, string[] list) => list[index];
-
-        public static string GetFirstName() => Randomize.Next(1, 3) % 2 == 0 ? GetRandomElement(NamesFemale) : GetRandomElement(NamesMale);
-
-        public static int GetRandomNumber(string[] list) => Randomize.Next(list.Length - 1);
-
-        public static int GetRandomNumber(List<string> list) => Randomize.Next(list.Count - 1);
+        return list[i];
     }
+
+    public static string GetElement(int index, string[] list) => list[index];
+
+    public static string GetFirstName() => Randomize.Next(1, 3) % 2 == 0 ? GetRandomElement(NamesFemale) : GetRandomElement(NamesMale);
+
+    public static int GetRandomNumber(string[] list) => Randomize.Next(list.Length - 1);
+
+    public static int GetRandomNumber(List<string> list) => Randomize.Next(list.Count - 1);
 }

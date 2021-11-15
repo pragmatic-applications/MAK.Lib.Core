@@ -1,7 +1,6 @@
-﻿namespace Constants
+﻿namespace Constants;
+
+public class SharedConstant
 {
-    public class SharedConstant
-    {
-        public const string CorsPolicyNane = "CorsPolicy";
-    }
+    public const string CorsPolicyNane = "CorsPolicy";
 }

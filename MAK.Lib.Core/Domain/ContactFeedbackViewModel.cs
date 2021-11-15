@@ -1,8 +1,7 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public class ContactFeedbackViewModel
 {
-    public class ContactFeedbackViewModel
-    {
-        public static bool IsVisible { get; set; }
-        public static string FullName { get; set; }
-    }
+    public static bool IsVisible { get; set; }
+    public static string FullName { get; set; }
 }

@@ -1,7 +1,7 @@
-﻿namespace AppConfigSettings
+﻿namespace AppConfigSettings;
+
+public class EmailData
 {
-  public class EmailData
-  {
     public string EmailServerHostAdminUserName { get; set; }
     public string EmailServerHostAdminPassword { get; set; }
     public string EmailServerHost { get; set; }
@@ -14,5 +14,4 @@
     public string ToEmailAddressOwnerClient { get; set; }
     public string ToDisplayNameOwnerClient { get; set; }
     public string RecipientEmailOwner { get; set; }
-  }
 }

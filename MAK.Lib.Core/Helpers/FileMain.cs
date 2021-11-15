@@ -1,19 +1,16 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿namespace Helpers;
 
-namespace Helpers
+public class FileMain
 {
-    public class FileMain
+    public static string GetContentType(string path)
     {
-        public static string GetContentType(string path)
-        {
-            var types = GetMimeTypes();
-            var ext = Path.GetExtension(path).ToLowerInvariant();
+        var types = GetMimeTypes();
+        var ext = Path.GetExtension(path).ToLowerInvariant();
 
-            return types[ext];
-        }
+        return types[ext];
+    }
 
-        private static Dictionary<string, string> GetMimeTypes() => new Dictionary<string, string>
+    private static Dictionary<string, string> GetMimeTypes() => new Dictionary<string, string>
         {
               {".txt", "text/plain"},
               {".pdf", "application/pdf"},
@@ -27,5 +24,4 @@ namespace Helpers
               {".gif", "image/gif"},
               {".csv", "text/csv"}
         };
-    }
 }

@@ -1,8 +1,7 @@
-﻿namespace AppConfigSettings
+﻿namespace AppConfigSettings;
+
+public class AuthGoogle
 {
-    public class AuthGoogle
-    {
-        public string ClientId { get; set; }
-        public string ClientSecret { get; set; }
-    }
+    public string ClientId { get; set; }
+    public string ClientSecret { get; set; }
 }

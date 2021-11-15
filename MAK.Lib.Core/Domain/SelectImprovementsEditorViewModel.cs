@@ -1,9 +1,8 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public class SelectImprovementsEditorViewModel
 {
-    public class SelectImprovementsEditorViewModel
-    {
-        public bool Selected { get; set; }
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
+    public bool Selected { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; }
 }

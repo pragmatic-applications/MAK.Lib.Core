@@ -1,13 +1,12 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+/// <summary>
+/// For passing success message
+/// </summary>
+public class EditService
 {
     /// <summary>
-    /// For passing success message
+    /// <c>true</c> when last edit was successful.
     /// </summary>
-    public class EditService
-    {
-        /// <summary>
-        /// <c>true</c> when last edit was successful.
-        /// </summary>
-        public bool Success { get; set; }
-    }
+    public bool Success { get; set; }
 }

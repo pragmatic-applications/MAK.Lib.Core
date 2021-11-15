@@ -1,7 +1,6 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public class SessionKey
 {
-    public class SessionKey
-    {
-        public const string DataVMSession = "DataVMSession";
-    }
+    public const string DataVMSession = "DataVMSession";
 }

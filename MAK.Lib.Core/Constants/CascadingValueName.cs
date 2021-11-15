@@ -1,7 +1,6 @@
-﻿namespace Constants
+﻿namespace Constants;
+
+public class CascadingValueName
 {
-    public class CascadingValueName
-    {
-        public const string ElementValue = "ElementValue";
-    }
+    public const string ElementValue = "ElementValue";
 }

@@ -1,6 +1,3 @@
-﻿using System;
+﻿namespace Domain;
 
-namespace Domain
-{
-    public class Service : Attribute { }
-}
+public class Service : Attribute { }

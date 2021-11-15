@@ -1,10 +1,9 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+public enum TitleType
 {
-    public enum TitleType
-    {
-        Mr = 1,
-        Mrs = 2,
-        Ms = 3,
-        Miss = 4
-    }
+    Mr = 1,
+    Mrs = 2,
+    Ms = 3,
+    Miss = 4
 }
