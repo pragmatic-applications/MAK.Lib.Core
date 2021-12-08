@@ -2,9 +2,8 @@
 // Solution: MAK.Lib.Core
 //=================================================================
 // Programmer: Maurice Antonio Kelly
-// Description: .NET Portfolio
-// ASP.NET Core 6.0
-// Date: 2021-11-15
-// Stop: 20:00
-// NuGet: <Version>0.0.0.3</Version>
+// .NET 6
+// Date: 2021-12-08
+// Stop: 17:00
+// NuGet Version: 0.0.0.4
 //=================================================================
