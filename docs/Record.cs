@@ -4,6 +4,6 @@
 // Programmer: Maurice Antonio Kelly
 // .NET 6
 // Date: 2021-12-09
-// Stop: 14:00
-// NuGet Version: 0.0.0.5
+// Stop: 19:00
+// NuGet Version: 0.0.0.6
 //=================================================================
