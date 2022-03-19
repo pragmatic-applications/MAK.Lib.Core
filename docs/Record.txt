@@ -1,0 +1,11 @@
+//=================================================================
+Solution: Core
+//=================================================================
+Programmer: Maurice Antonio Kelly @MAKMaurice
+Description: A .NET library that can be used in any .NET application such as Blazor WASM Apps.
+Date: 2022-03-19
+Stop Time: 12:00
+//=================================================================
+NuGet Message: Update project structure.
+NuGet Version: 0.0.0.8
+//=================================================================
