@@ -1,11 +1,11 @@
 //=================================================================
-Solution: Core
+Project: MAK.LibCore
 //=================================================================
-Programmer: Maurice Antonio Kelly @MAKMaurice
+Software Engineer: Maurice Antonio Kelly @MAKMaurice
 Description: A .NET library that can be used in any .NET application such as Blazor WASM Apps.
-Date: 2022-03-19
+Date: 2022-03-30
 Stop Time: 12:00
 //=================================================================
-NuGet Message: Update project structure.
-NuGet Version: 0.0.0.8
+Git Commit Message: Move to local Windows folder because of issues with macOS .DS_Store files when I deploy Apps that use this library.
+NuGet: https://www.nuget.org/packages/MAK.LibCore/
 //=================================================================

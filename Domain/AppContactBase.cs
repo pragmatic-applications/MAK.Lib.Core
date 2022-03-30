@@ -3,36 +3,48 @@
 /// <summary>
 /// A type that is used for contact data with Contact features used Apps that use this library. the type can be inherited to add other members.
 /// </summary>
-public class AppContact
+public abstract class AppContactBase
 {
-    public int Id { get; set; }
+    public int Id
+    {
+        get; set;
+    }
 
     [StringLength(50, MinimumLength = 1), Required, Display(Name = DataAnnotationValue.DisplayName_FirstName)]
-    public string FirstName { get; set; }
+    public string FirstName
+    {
+        get; set;
+    }
 
     [StringLength(50, MinimumLength = 1), Required, Display(Name = DataAnnotationValue.DisplayName_LastName)]
-    public string LastName { get; set; }
+    public string LastName
+    {
+        get; set;
+    }
 
     [EmailAddress, Required, Display(Name = DataAnnotationValue.DisplayName_Email)]
-    public string Email { get; set; }
+    public string Email
+    {
+        get; set;
+    }
 
     [Required, Display(Name = DataAnnotationValue.DisplayName_Message)]
-    public string Message { get; set; }
+    public string Message
+    {
+        get; set;
+    }
 
     [Required, Display(Name = DataAnnotationValue.DisplayName_Title)]
-    public string Title { get; set; }
-    public List<string> Titles
+    public string Title
     {
-        get
-        {
-            return new List<string>
-                {
-                    "Mr",
-                    "Miss",
-                    "Ms",
-                    "Mrs",
-                    "Dr"
-                };
-        }
+        get; set;
     }
+    public List<string> Titles => new List<string>
+    {
+        "Mr",
+        "Miss",
+        "Ms",
+        "Mrs",
+        "Dr"
+    };
 }
