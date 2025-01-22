@@ -3,8 +3,9 @@ Project: MAK.LibCore
 //=================================================================
 Software Engineer: Maurice Antonio Kelly @MAKMaurice
 Description: A .NET library that can be used in any .NET application such as Blazor WASM Apps.
-Date: 2022-03-30
-Stop Time: 12:00
+Date: 202-01-22
+Stop Time: 11:00
+Git Message: Update from .NET 6 to 9
 //=================================================================
 Git Commit Message: Move to local Windows folder because of issues with macOS .DS_Store files when I deploy Apps that use this library.
 NuGet: https://www.nuget.org/packages/MAK.LibCore/
